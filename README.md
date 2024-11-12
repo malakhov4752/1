@@ -27,20 +27,20 @@
  ![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%204.png)
 
 
- 16.sudo chmod +x /usr/bin/docker-compose
+ 7 sudo chmod +x /usr/bin/docker-compose
 
-docker-compose --version (проверяем версию)
+8 docker-compose --version (проверяем версию)
 
-sudo docker compose up -d команда создает контейнера с правами супер пользователя
+9 sudo docker compose up -d команда создает контейнера с правами супер пользователя
 
 
 
 ![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%205.png)
 
-19. sudo vi docker-compose.yaml
+10 sudo vi docker-compose.yaml
 
-•команда открывает файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя, что позволяет вам редактировать его содержимое.
+11 команда открывает файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя, что позволяет вам редактировать его содержимое.
 
-• Нас перекинет в текстовый редактор
+12 Нас перекинет в текстовый редактор
 
-• Что-бы что-то изменить в тесковом редакторе нажмите insert на клавиатуре
+13 Что-бы что-то изменить в тесковом редакторе нажмите insert на клавиатуре

@@ -60,3 +60,17 @@ Grafana
 19 Authentication потом Basic Authentication (admin admin)
 
 ![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%208.png)
+
+VictoriaMetrics
+
+20 cd grafana_stack_for_docker
+
+21 sudo vi docker-compose.yaml
+
+22 echo -e "# TYPE OILCOINT_metric1 gauge\nOILCOINT_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus
+
+23 curl -G 'http://localhost:8428/api/v1/query' --data-urlencode 'query=OILCOINT_metric1'
+
+24 вставляем OILCOINT_metric1
+
+![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%207.png)

@@ -17,7 +17,9 @@
 
 4 sudo systemctl enable docker --now
  Запускаем его и даём разрешение на запуск
+
 5 sudo yum install curl
+
 6 COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)
 
  Объявление переменной COMVER, полученной в результате curl запроса, хранящей в себе номер последней версии Docker Compose

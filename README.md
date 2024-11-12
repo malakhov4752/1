@@ -3,17 +3,20 @@
 
 1 sudo yum install wget
 
-![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%201.png)
+![Снимок экрана 1](https://github.com/user-attachments/assets/d18d1b0c-d2aa-45ed-bbe3-8bd7bcd32200)
+
 
                                                                                                                                                                                                                                             
 2 sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 скачиваем репозиторий
 
-![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202.png)
+![Снимок экрана 2](https://github.com/user-attachments/assets/0e5103f2-664d-4bee-ae98-f8e156b0e9e5)
+
 
 3 sudo yum install docker-ce docker-ce-cli containerd.io
 устанавливаем  docker
-![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%203.png)
+![Снимок экрана 3](https://github.com/user-attachments/assets/aff48d62-a301-48b6-ab9f-367f820e6658)
+
 
 4 sudo systemctl enable docker --now
  Запускаем его и даём разрешение на запуск
@@ -24,7 +27,8 @@
 
  Чтобы узнать, какая последняя версия Docker Compose, мы получим её номер через запрос curl и сохраним в переменную COMVER.
 
- ![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%204.png)
+ ![Снимок экрана 4](https://github.com/user-attachments/assets/7cbe2893-7e06-4e59-b0b2-8a61b276041a)
+
 
 
  7 sudo chmod +x /usr/bin/docker-compose
@@ -35,7 +39,8 @@
 
 
 
-![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%205.png)
+![Снимок экрана 5](https://github.com/user-attachments/assets/b5c6a362-18a3-4f41-b812-ddbc209fc899)
+
 
 10 sudo vi docker-compose.yaml
 
@@ -59,7 +64,8 @@ Grafana
 
 19 Authentication потом Basic Authentication (admin admin)
 
-![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%208.png)
+![Снимок экрана 6](https://github.com/user-attachments/assets/b2870796-23b4-472a-aa1a-6cce6db18782)
+
 
 VictoriaMetrics
 
@@ -73,9 +79,11 @@ VictoriaMetrics
 
 24 вставляем OILCOINT_metric1
 
-![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%207.png)
+![Снимок экрана 7](https://github.com/user-attachments/assets/46066831-b250-44f1-a992-067b77c51898)
 
-![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%206.png)
+
+![Снимок экрана 8](https://github.com/user-attachments/assets/429e40ca-ef11-4cd2-a935-d0a7a4e7afb5)
+
 
 
 

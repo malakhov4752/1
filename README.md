@@ -64,7 +64,7 @@ Grafana
 
 19 Authentication потом Basic Authentication (admin admin)
 
-![Снимок экрана 6](https://github.com/user-attachments/assets/b2870796-23b4-472a-aa1a-6cce6db18782)
+![Снимок экрана 8](https://github.com/user-attachments/assets/429e40ca-ef11-4cd2-a935-d0a7a4e7afb5)
 
 
 VictoriaMetrics
@@ -82,7 +82,8 @@ VictoriaMetrics
 ![Снимок экрана 7](https://github.com/user-attachments/assets/46066831-b250-44f1-a992-067b77c51898)
 
 
-![Снимок экрана 8](https://github.com/user-attachments/assets/429e40ca-ef11-4cd2-a935-d0a7a4e7afb5)
+![Снимок экрана 6](https://github.com/user-attachments/assets/b382e11f-6f69-4b6e-9cc7-6828ad0534c5)
+
 
 
 

@@ -25,3 +25,13 @@
  Объявление переменной COMVER, полученной в результате curl запроса, хранящей в себе номер последней версии Docker Compose
 
  ![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%204.png)
+
+
+ 16.sudo chmod +x /usr/bin/docker-compose
+
+docker-compose --version (проверяем версию)
+
+sudo docker compose up -d команда создает контейнера с правами супер пользователя
+
+
+![image](https://github.com/malakhov4752/1/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%206.png)
